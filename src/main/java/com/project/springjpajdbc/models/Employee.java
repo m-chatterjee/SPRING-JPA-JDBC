@@ -3,7 +3,7 @@ package com.project.springjpajdbc.models;
 import javax.persistence.Entity;
 import javax.persistence.Id;
 
-@Entity
+@Entity(name="empdata")
 public class Employee {
     @Id
     int id;
